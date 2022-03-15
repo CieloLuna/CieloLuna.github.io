@@ -1,0 +1,115 @@
+@charset "utf-8";
+@import url("../webfonts/Cinzel_Black/stylesheet.css");
+@import url("../webfonts/RobotoSlab_Light/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url("../webfonts/Poppins_Light/stylesheet.css");
+
+
+
+/* CSS Document */
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+	color: white;
+	text-align: center;
+}
+div{
+	display: inline;
+	text-align: center;
+	margin: 10px;
+}
+header,nav,main,footer{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+header{
+	height: auto;
+	background: #D67371;
+}
+nav{
+	height: 50px;
+	background-color: #6A638C;
+}
+.navegacion{
+	width:2000;
+	margin: 30px auto;
+	background: #FFC2AD;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu> li{
+	display: inline-block;
+}
+main{
+	height: 50px;
+	background-color: #F8CDE0;
+	padding: 50px;
+}
+footer{
+	height: 100px;
+	background-color: #6A638C;
+}
+section{
+	width: 70%;
+	height: auto;
+	margin: 10px auto;
+	padding: 40px;
+	background-color: #D67371;
+	border-radius: 10px;
+}
+
+.fuentes_t2 {
+    font-family: alex-brush;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+.fuente_t2-2 {
+    font-family: "Cinzel Black";
+    font-size: 36px;
+}
+.tipo_2 {
+    font-family: "RobotoSlab Light";
+    font-style: normal;
+    font-weight: 400;
+}
+.top_3 {
+    font-family: "Poppins Light";
+}
+.tipo_4 {
+	font-family: 'Cinzel', serif;
+font-family: 'Roboto Slab', serif;
+}
+.parraforepositorio {
+	font-family: 'Space Mono', monospace;
+}
+
+.fuente_importada {
+	font-family: 'Cookie', cursive;
+}
+.Parrafo_importado {
+	font-family: 'League Gothic', sans-serif;
+}
+.animate__delay-5s {
+}
+.animate__delay-2s {
+}
+.animate__slower {
+}
+.animate__delay-es {
+}
+.animate__delay-3s {
+}
+.animate__repeat-3 {
+}
+.animate__infinate {
+}
+.animate__infinite {
+}

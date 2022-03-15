@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu> li{
+	display: inline-block;
+}
+body{
+	color: white;
+	text-align: center;
+}
+menu li{
+	display: inline;
+	text-align: center;
+	margin: 10px;
+}
+header,nav,main,footer{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+header{
+	height: auto;
+	background: #D67371;
+}
+nav{
+	height: 50px;
+	background-color: #6A638C;
+}
+main{
+	height: 50px;
+	background-color: #F8CDE0;
+	padding: 50px;
+}
+section{
+	width: 70%;
+	height: auto;
+	margin: 10px auto;
+	padding: 40px;
+	background-color: #D67371;
+	border-radius: 10px;
+}
+
+#mexico {
+}
+
+select{
+	width: 30%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: antiquewhite;
+}
+input[type=submit]:hover{
+	background-color: #FFC2AD;
+	color: #924E4C;
+}
+textarea{
+	width: 50%;
+	height: 100px;
+	padding: 12px 20px;
+	color: #D67371;
+	border-radius: 10px;
+	border: 2px solid #FFC2AD;
+	resize: none;
+	
+}
+
+footer{
+	/*height: 100px;*/
+	background-color: #6A638C;
+	text-align: center;
+}
+#imagen_1 {
+    width: 30%;
+    height: 30%;
+}

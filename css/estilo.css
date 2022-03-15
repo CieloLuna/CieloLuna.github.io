@@ -1,0 +1,55 @@
+/* CSS Document */
+
+header{
+	background-color: #D67371;
+	color: white;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu> li{
+	display: inline-block;
+}
+h2{
+	color: #6A638C;
+}
+body{
+	background-color:#6A638C;
+}
+section{
+	background-color: #F8CDE0;
+	
+}
+footer{
+	background-color: #D67371;
+	color: white;
+	font-size: 12px;
+}.imagen_1 {
+    width: 50%;
+    height: 50%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+}
+#filter_gray {
+    filter: gray(50%);
+}
+#filter_blur {
+    filter: blur(50%);
+}
+#filter_brillo {
+    filter: brightness(50%);
+}
+#filter_opacidad {
+    filter: opacity(50%);
+}
+#filter_saturacion {
+    filter: saturate(50%);
+}
+#filter_sepia {
+    filter: sepia(100%);
+}
+#filter_contraste {
+    filter: contrast(20%);
+}

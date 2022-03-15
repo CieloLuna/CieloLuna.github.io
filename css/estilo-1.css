@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	background-color: #D67371;
+	color: #6A638C;
+	height: 50px;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu> li{
+	display: inline-block;
+}
+body{
+	background-color: #F8CDE0;
+	text-align: center;
+}
+div{
+	display: inline;
+	text-align: center;
+	margin: 10px;
+}
+header,nav,main,footer{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+footer{
+	height: 100px;
+	background-color: #6A638C;
+}

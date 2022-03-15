@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Listas</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;	
+		}
+		h2,h3 {
+			color:#E0457F;
+		}
+		.navegacion ul{
+	list-style: none;
+}
+.menu> li{
+	display: inline-block;
+}
+		b {color: #E0457F;}
+		header,nav,main,footer{
+			margin:0 auto;
+		}
+		
+		header{
+			height: 100px;
+			width: 1024px;
+			background-color:#F3B062;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		nav{
+			height: 50px;
+			width: 1024px;
+			background-color: #F6EFE3;
+		}
+		main{
+			width: 1024px;
+			height: 1200px;
+			background-color: #B6DF82;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		section{
+			background-color:#F3B062;
+			color: #F6EFE3;
+			width: 860px;
+			height: 250px;
+			padding: 20px;
+			margin: 20px auto;
+			overflow:scroll;
+		}
+		footer{
+			height: 80px;
+			width: 1024px;
+			background-color: #B6DF82;
+			text-align: center;
+		}
+		
+		h1,h6{
+			margin:0 auto;
+		}
+	
+	
+	</style>
+	
+</head>
+
+<body>
+	<header>
+		<h1>Listas</h1>
+	</header>
+	<!- ********************
+	Asignatura: Interfaces Graficas de Usuarios
+	NRC:30557
+	Matricula:201853139
+	Cielo Berenice Luna Bravo
+	******************
+	->
+	<nav class="navegacion">
+	  <ul class="menu">
+		  <li><a href="index.html">index</a></li>
+		  <li><a href="Formulario.html">formulario</a></li>
+		  <li><a href="imagen.html">imagenes</a></li>
+		  <li><a href="audio.html">Audio</a></li>
+		  <li><a href="video.html">Video</a></li>
+		  <li><a href="fuentes.html">Fuentes</a></li>
+		  <li><a href="tablas.html">Tablas</a></li>
+		  <li><a href="tablas_.html">Tablas1</a></li>
+		  <li><a href="procesamiento.html">Procesamiento</a></li>
+		</ul>
+	  </nav>
+	<main>
+		<section>
+			<h2>Listas desordenadas</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ducimus distinctio nemo deleniti accusamus quidem aperiam ea velit aspernatur consequatur.</p>
+			<ul type="square">
+				<li>Elefante</li>
+				<li>Jirafa</li>
+				<li>Leon</li>
+				<li>Mono</li>
+				<li>Leopardo</li>
+				<li>Tigre</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Listas ordenadas</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vel quia rem, quidem pariatur alias quaerat modi earum aut rerum optio saepe quos iusto nesciunt asperiores explicabo, et perferendis exercitationem.
+			</p>
+			
+			<ol type="A">
+				<li>Seat</li>
+				<li>VW</li>
+				<li>Toyota</li>
+				<li>Renault</li>
+				<li>Chevrolet</li>
+				<li>Nissan</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista Mixta</h2>
+			<!-Comentario 1:Agregar lista de enlaces de la practica en caso de que no se visualice agregar los dos puntos y la diagonal->
+			<p><a href="../index.html">Lista</a></p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas suscipit earum quaerat natus saepe unde sapiente assumenda possimus. Eius soluta tenetur, aliquid consequatur numquam saepe inventore fugiat voluptatum exercitationem repellendus!</p>
+			<ol>
+				<li><b>Mexico</b> 
+					<ul type="circle">
+						<li>Puebla</li>
+						<li>Michoacan</li>
+						<li>Yucatan</li>
+						<li>Jalisco</li>
+						<li>San luis Potosi</li>
+					</ul>
+				</li>
+				<li><b>Italia</b>
+				<ol type="i">
+					<li>Florencia</li>
+					<li>Venecia</li>
+					<li>Milan</li>
+					</ol>
+				</li>
+				<li><b>España</b>
+					<ul>
+						<li>Mallorca</li>
+						<li>Servilla</li>
+						<li>Madrid</li>
+					</ul>
+				</li>
+				<li><b>Australia</b>
+					<ol type="I" start="20">
+						<li>Sindey</li>
+						<li>Perth</li>
+						<li>Tasmania</li>
+					</ol>
+				</li>
+				<li><b>Francia</b>
+					<ol start="100">
+						<li>Paris</li>
+						<li>Niza</li>
+						<li>Burdeos</li>
+					</ol>
+				</li>
+				<li><b>Estados Unidos</b>
+					<ul>
+					<li>Los angeles</li>
+					<li>San francisco</li>
+					<li>California</li>
+					</ul>
+				</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista de descripcion</h2>
+			<dl>
+				<dt>Accesibilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ducimus nam aspernatur dolorum delectus sequi sed nulla, aliquid, blanditiis maxime.</dd>
+				<dt>Usabilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus libero fugit, excepturi quos neque repellat provident laboriosam inventore porro? Aliquam.</dd>
+				<dt>Interfaz</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odit, perspiciatis harum aspernatur velit excepturi eos inventore ipsa porro veritatis.</dd>
+			</dl>
+		
+		</section>
+	</main>
+	<footer>Elaborado por @Cielo</footer>
+	
+</body>
+</html>
